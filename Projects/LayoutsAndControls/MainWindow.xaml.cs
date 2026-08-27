@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LayoutsAndControls
+namespace MVVM_Basics
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -19,12 +19,6 @@ namespace LayoutsAndControls
         public MyWindow()
         {
             InitializeComponent();
-        }
-
-        void button_click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Hello");
-            MessageBox.Show("Bahh");
         }
     }
 }
