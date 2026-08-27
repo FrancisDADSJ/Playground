@@ -1,4 +1,4 @@
 <Solution>
   <Project Path="Playground.csproj" />
-  <Project Path="Projects/LayoutsAndControls/LayoutsAndControls.csproj" />
+  <Project Path="Projects/LayoutsAndControls/MVVM_Basics.csproj" />
 </Solution>

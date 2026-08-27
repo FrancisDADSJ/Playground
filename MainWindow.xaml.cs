@@ -20,5 +20,10 @@ namespace Playground
         {
             InitializeComponent();
         }
+
+        private void PnlMyMainGrid_MouseUp(object sender, MouseEventArgs e)
+        {
+            MessageBox.Show("This is position " + e.GetPosition(this).ToString());
+        }
     }
 }

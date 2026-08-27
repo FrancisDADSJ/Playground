@@ -6,7 +6,18 @@
         xmlns:local="clr-namespace:Playground"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+    <Grid Name="myMainGrid" MouseUp="PnlMyMainGrid_MouseUp">
+        <Button>
+            <Button.FontWeight>Bold</Button.FontWeight>
+            <Button.Content>
+                <!-- WrapPanel allows for multiple objects to be seen by the content as a single object by acting as a container-->
+                <WrapPanel>
+                    <TextBlock Foreground="Green">Multi</TextBlock>
+                    <TextBlock Foreground="Yellow">Colour</TextBlock>
+                    <TextBlock>Button</TextBlock>
+                </WrapPanel>
+            </Button.Content>
+        </Button>
+        
     </Grid>
 </Window>
